@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 8501
+EXPOSE 8080
 
 CMD ["streamlit", "run", "weatherData_OWM.py"]
